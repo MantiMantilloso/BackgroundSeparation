@@ -1,0 +1,35 @@
+# ============================================================
+# Proyecto: Segmentación Semántica de Personas (Human Segmentation)
+# Archivo: requirements.txt
+# ============================================================
+
+# --- Deep Learning Framework ---
+torch>=2.2.0
+torchvision>=0.17.0
+torchinfo>=1.8.0              # Resumen de arquitectura del modelo
+
+# --- Procesamiento de Imágenes y Video ---
+opencv-python>=4.9.0
+Pillow>=10.2.0
+albumentations>=1.4.0         # Augmentaciones avanzadas para segmentación
+
+# --- Datos y Cómputo Numérico ---
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0           # train_test_split, métricas
+
+# --- Visualización ---
+matplotlib>=3.8.0
+seaborn>=0.13.0
+tqdm>=4.66.0                  # Barras de progreso
+
+# --- Jupyter Notebook ---
+jupyter>=1.0.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
+
+# --- Métricas de Segmentación (opcional) ---
+segmentation-models-pytorch>=0.3.3   # Métricas IoU / Dice preimplementadas
+
+# --- Utilidades ---
+gdown>=5.1.0                  # Descarga de datos desde Google Drive (opcional)
